@@ -26,7 +26,7 @@ export default function ExperienceRow({
 					)}
 				</p>
 
-				<p className="text-gray-300">{date}</p>
+				<p className="text-gray-300 mt-1 sm:mt-0">{date}</p>
 			</div>
 
 			{links && (
