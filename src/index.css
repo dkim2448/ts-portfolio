@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Radio+Canada:300,regular,500,600,700,300italic,italic,500italic,600italic,700italic);
+
+@import "tailwindcss";
+
+* {
+	font-family: "Radio Canada", sans-serif;
+}
+
+/* referenced by Snow.tsx via element.style.animationName */
+@keyframes fall {
+	0% {
+		opacity: 0;
+		transform: translateY(0);
+	}
+	10% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0.5;
+		transform: translateY(100vh);
+	}
+}
+
+@keyframes diagonal-fall {
+	0% {
+		opacity: 0;
+		transform: translate(0, 0);
+	}
+	10% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0.25;
+		transform: translate(10vw, 100vh);
+	}
+}
