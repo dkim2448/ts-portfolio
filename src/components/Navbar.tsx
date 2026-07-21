@@ -19,7 +19,7 @@ export default function Navbar() {
 				<p>daniel kim</p>
 			</div>
 
-			<div className="flex flex-col gap-4 sm:gap-1 text-right">
+			<div className="flex flex-col gap-3 sm:gap-1 text-right">
 				{/*
         to="/" and to="/about" must patch the `path` values in App.tsx's <Route> list
         */}
