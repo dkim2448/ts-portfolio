@@ -10,7 +10,7 @@ import About from "./pages/About";
 
 function App() {
 	return (
-		<BrowserRouter>
+		<BrowserRouter basename={import.meta.env.BASE_URL}>
 			<Snow />
 			<div className="w-full max-w-2xl mx-auto px-10 sm:px-20 md:px-0 pt-12">
 				<Navbar />
