@@ -19,7 +19,15 @@ export const work: ExperienceItem[] = [
 
 export const projects: ExperienceItem[] = [
 	{
-		title: "ai article summarizer - (50+ installs)",
+		title: "SnowPost",
+		date: "next.js, mongodb, clerk, typescript, tailwind",
+		links: [
+			{ label: "live", url: "https://snowpost.vercel.app/" },
+			{ label: "github", url: "https://github.com/dkim2448/snowpost" },
+		],
+	},
+	{
+		title: "ai article summarizer (80+ installs)",
 		date: "react, javascript, css, gemini api",
 		links: [
 			{
