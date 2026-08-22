@@ -35,7 +35,12 @@ export default function Navbar() {
 					contact
 				</a>
 
-				<a href="" rel="noreferrer" className={staticLinkClass}>
+				<a
+					href="/daniel-kim-resume.pdf"
+					target="_blank"
+					rel="noreferrer"
+					className={staticLinkClass}
+				>
 					resume <i className="ri-profile-line"></i>
 				</a>
 			</div>
