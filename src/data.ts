@@ -27,7 +27,7 @@ export const projects: ExperienceItem[] = [
 		],
 	},
 	{
-		title: "ai article summarizer (80+ installs)",
+		title: "ai article summarizer (115+ installs)",
 		date: "react, javascript, css, gemini api",
 		links: [
 			{
