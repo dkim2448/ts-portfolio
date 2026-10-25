@@ -4,6 +4,11 @@ import type { ExperienceItem } from "./types";
 
 export const work: ExperienceItem[] = [
 	{
+		title: "software developer intern at",
+		org: "mbdmg",
+		date: "september 2026 - november 2026",
+	},
+	{
 		title: "teaching assistant at",
 		org: "CU Denver College of Engineering",
 		orgUrl: "https://engineering.ucdenver.edu/",
@@ -27,7 +32,7 @@ export const projects: ExperienceItem[] = [
 		],
 	},
 	{
-		title: "ai article summarizer (115+ installs)",
+		title: "ai article summarizer (200+ installs)",
 		date: "react, javascript, css, gemini api",
 		links: [
 			{
@@ -46,14 +51,6 @@ export const projects: ExperienceItem[] = [
 		links: [
 			{ label: "live", url: "https://galaxy-gen-five.vercel.app/" },
 			{ label: "github", url: "https://github.com/dkim2448/galaxy-gen" },
-		],
-	},
-	{
-		title: "youtube clone",
-		date: "react, typescript, tailwind",
-		links: [
-			{ label: "live", url: "https://dkim2448.github.io/youtube-clone-ts/" },
-			{ label: "github", url: "https://github.com/dkim2448/youtube-clone-ts" },
 		],
 	},
 	{
