@@ -36,7 +36,7 @@ export default function Navbar() {
 				</a>
 
 				<a
-					href="/1_daniel.kim_resume.pdf"
+					href="/daniel-kim-resume.pdf"
 					target="_blank"
 					rel="noreferrer"
 					className={staticLinkClass}
